@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV - Marco Antonio García Evanán</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono&display=swap');
+
+    body {
+      font-family: 'Roboto Mono', monospace;
+      margin: 0;
+      padding: 0;
+      background: #0d1117;
+      color: #e0e0e0;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: rgba(25, 25, 30, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 0 40px rgba(0, 255, 204, 0.5);
+      overflow: hidden;
+      border: 2px solid #00ffcc;
+    }
+
+    header {
+      background: linear-gradient(90deg, #004080, #00cc99);
+      color: #fff;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: relative;
+    }
+
+    .foto-perfil {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background-color: #1a1a1a;
+      border: 4px solid #00ffcc;
+      background-size: cover;
+      background-position: center;
+      box-shadow: 0 0 20px #00ffcc;
+    }
+
+    .info-personal {
+      flex: 1;
+      margin-left: 20px;
+      min-width: 250px;
+    }
+
+    .info-personal h1 {
+      margin: 0;
+      font-size: 2em;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 8px #00ffcc;
+    }
+
+    .cita-personal {
+      font-style: italic;
+      color: #00ffcc;
+      margin-top: 5px;
+      text-shadow: 0 0 6px #00ffcc;
+    }
+
+    .info-personal p {
+      margin: 4px 0;
+      color: #b0f7ef;
+    }
+
+    section {
+      padding: 20px 30px;
+      border-bottom: 1px solid #222;
+      background: rgba(10, 10, 15, 0.7);
+      margin: 10px 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+      transition: transform 0.3s;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 25px rgba(0, 255, 204, 0.4);
+    }
+
+    h2 {
+      color: #00ffcc;
+      border-left: 5px solid #00ffcc;
+      padding-left: 10px;
+      font-family: 'Orbitron', sans-serif;
+      text-shadow: 0 0 6px #00ffcc;
+    }
+
+    ul {
+      margin: 10px 0 10px 20px;
+    }
+
+    li {
+      margin-bottom: 6px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        text-align: center;
+      }
+      .info-personal {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <header>
+      <div class="foto-perfil" id="fotoPerfil">
+        <!-- Aquí puedes colocar tu imagen -->
+        <!-- Ejemplo: style="background-image: url('img/perfil.jpg');" -->
+      </div>
+      <div class="info-personal">
+        <h1>Marco Antonio García Evanán</h1>
+        <p class="cita-personal">"Aprender es mi motor, crear es mi camino."</p>
+        <p>📍 Ayacucho, Perú</p>
+        <p>📞 910387845</p>
+        <p>📧 garciaevananm@gmail.com</p>
+      </div>
+    </header>
+
+    <section>
+      <h2>💬 Perfil Profesional</h2>
+      <p>
+        Soy un joven entusiasta del desarrollo web, con conocimientos en HTML, CSS, PHP y JavaScript,
+        y experiencia práctica en la creación de plataformas educativas. Me apasiona aprender nuevas tecnologías
+        y optimizar mis proyectos para lograr un mejor rendimiento. Busco una oportunidad laboral o de aprendizaje
+        que me permita seguir creciendo como desarrollador y aportar soluciones funcionales e innovadoras.
+      </p>
+    </section>
+
+    <section>
+      <h2>💼 Experiencia Laboral</h2>
+      <p><strong>Desarrollador Web – Proyecto educativo para empresa local</strong> (2024 – Actualidad)</p>
+      <ul>
+        <li>Diseñé y desarrollé una plataforma web educativa con estructura similar a YouTube, enfocada en cursos, exámenes y materiales didácticos.</li>
+        <li>Implementé un sistema de login con correo o Google y una base de datos relacional para almacenar exámenes y usuarios.</li>
+        <li>Aprendí sobre integración de back-end y front-end, manejo de base de datos y optimización básica de rendimiento.</li>
+        <li>Aunque aún no está completamente optimizada, el proyecto me permitió adquirir experiencia práctica y comprensión profunda del flujo de datos entre cliente y servidor.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🎓 Formación Académica</h2>
+      <ul>
+        <li><strong>Administración de Redes</strong> – Instituto Tecnológico (en pausa – primer trimestre, 2024)</li>
+        <li><strong>Cursos Complementarios:</strong>
+          <ul>
+            <li>HTML Básico</li>
+            <li>CSS Básico</li>
+            <li>Creación y Diseño de Personajes (Nedzun)</li>
+            <li>Introducción a JavaScript y PHP con IA como asistente</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🧠 Habilidades Técnicas</h2>
+      <ul>
+        <li><strong>Lenguajes:</strong> HTML, CSS, JavaScript, PHP</li>
+        <li><strong>Bases de datos:</strong> MySQL</li>
+        <li><strong>Herramientas:</strong> XAMPP, Visual Studio Code, Git</li>
+        <li><strong>Diseño:</strong> Creación de interfaces, estructura de bases de datos y organización de contenido educativo</li>
+        <li><strong>Otras:</strong> Curiosidad tecnológica, aprendizaje rápido, persistencia y trabajo en equipo</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌐 Idiomas</h2>
+      <ul>
+        <li>Español — Nativo</li>
+        <li>Inglés — Básico</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🏁 Objetivo Profesional</h2>
+      <p>
+        Continuar desarrollándome como programador web y contribuir con proyectos que impulsen la educación digital,
+        aplicando lo que he aprendido y mejorando mis habilidades en optimización y diseño de sistemas web.
+      </p>
+    </section>
+  </div>
+</body>
+</html>
